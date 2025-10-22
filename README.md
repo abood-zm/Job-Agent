@@ -7,7 +7,7 @@ This project is a personal AI agent built with **LangChain** that automatically 
 - **Automated Job Search**: Fetches job postings from multiple sources using modular search tools.
 - **Experience Matching**: Compares job requirements to stored personal experience using a retrieval-based workflow.
 - **Summarization**: Converts job descriptions and matches into concise, structured bullet points highlighting key responsibilities, required skills, and gaps.
-- **Notifications**: Sends summarized job listings via email (or other notification channels) for easy access.
+- **Notifications**: Sends summarized job listings via email (or other notification channels) for easy access. (might use Slack)
 - **Extensible & Modular**: Each step (search, summarize, compare, notify) is implemented as a separate tool, making it easy to extend or modify.
 - **Context-Aware Execution**: Uses `ToolRuntime` to securely provide personal context, such as experience, without exposing sensitive information to the LLM.
 - **Long-Term Memory**: Stores personal information and previously processed jobs to avoid duplicates and track job application history.
@@ -15,7 +15,7 @@ This project is a personal AI agent built with **LangChain** that automatically 
 
 ## Tech Stack
 
-- **LangChain** – for agent orchestration and tool integration  
+- **LangChain + LangGraph** – for agent orchestration and tool integration  
 - **RAG (Retrieval-Augmented Generation)** – for comparing job descriptions to personal experience  
 - **Vector Store / Memory** – for storing experience and job history  
 - **Email / Notification Service** – for delivering job summaries  
@@ -35,4 +35,4 @@ This project is a personal AI agent built with **LangChain** that automatically 
 
 ---
 
-This project is a showcase of **personalized AI agents in action**, highlighting how modern LLM frameworks like LangChain can integrate with external data, memory, and user context to provide actionable insights.
+This project is a showcase of **personalized AI agents in action**, highlighting how modern LLM frameworks like LangChain can integrate with external data, memory, and user context to provide actionable insights. Additionally, this is my first ever project using LangChain. Enjoy! :-) 
